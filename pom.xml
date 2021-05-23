@@ -76,16 +76,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<url>http://localhost:8181/manager/text</url>
-					<server>TomcatServer</server>
-					<path>/limit-service</path>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
